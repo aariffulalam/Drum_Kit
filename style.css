@@ -1,0 +1,52 @@
+html {
+    font-size: 10px;
+    background: url('./download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+/* body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./download.jpeg");
+} */
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+div{
+    text-align: center;
+}
+
+.keys{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.key{
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    transition: all 0.2s;
+    border:3px solid white;
+
+}
+
+.playing{
+    /* transform: scale(1.5); */
+    color: black;
+    background-color: white;    
+    box-shadow: 0 0 10px #f1c00b;
+    border:3px solid #ffc600;
+}
